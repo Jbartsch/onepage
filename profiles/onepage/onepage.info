@@ -1,0 +1,43 @@
+name = onepage
+description = The onepage installation creates a onepage drupal site with a frontpage panel, sliders, maps and a contact form.
+core = 7.x
+
+; Drupal standard distribution
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+;dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Distribution specific
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = page_manager
+dependencies[] = features
+
+dependencies[] = libraries
+dependencies[] = webform
+dependencies[] = panels
+dependencies[] = flexslider
+dependencies[] = openlayers
+dependencies[] = ctools
+dependencies[] = omega_tools
+
+
+
