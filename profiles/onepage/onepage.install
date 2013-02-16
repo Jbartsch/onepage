@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function standard_install() {
+function onepage_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -378,8 +378,8 @@ function standard_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', 'ember')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'ember');
   variable_set('node_admin_theme', '1');
 }

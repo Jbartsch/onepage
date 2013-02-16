@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the onepage_fonts feature.
+ */
+
+include_once 'onepage_fonts.features.inc';

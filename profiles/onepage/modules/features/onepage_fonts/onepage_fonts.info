@@ -1,0 +1,12 @@
+name = onepage_fonts
+description = sets the default fonts to open sans
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = onepage_fonts
+dependencies[] = features
+dependencies[] = fontyourface
+dependencies[] = google_fonts_api
+features[features_api][] = api:1
+features[fontyourface][] = Open Sans 300 (latin)
+features[fontyourface][] = Open Sans 800 (latin)

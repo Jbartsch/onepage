@@ -37,20 +37,26 @@ dependencies[] = flexslider
 dependencies[] = openlayers
 dependencies[] = ctools
 dependencies[] = omega_tools
-dependencies[] = acquia_connector
+dependencies[] = acquia_agent
 dependencies[] = adaptive_image
 dependencies[] = backup_migrate
 dependencies[] = ckeditor
 dependencies[] = ckeditor_link
 dependencies[] = cs_adaptive_image
 dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+dependencies[] = google_fonts_api
 dependencies[] = geophp
 dependencies[] = videojs
 dependencies[] = views_slideshow
+dependencies[] = weight
+
 
 ; Distribution specific features
 dependencies[] = front_page_panel
 dependencies[] = frontpage_slider
 dependencies[] = standortsuche
+dependencies[] = onepage_fonts
+
 
 
