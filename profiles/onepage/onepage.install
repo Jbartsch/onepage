@@ -69,8 +69,8 @@ function standard_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'omega_kickstart');
-  $admin_theme = 'ember';
+  $default_theme = variable_get('theme_default', 'bartik');
+  $admin_theme = 'seven';
   $blocks = array(
     array(
       'module' => 'system',
@@ -378,8 +378,8 @@ function standard_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'ember')
+    ->condition('name', 'seven')
     ->execute();
-  variable_set('admin_theme', 'ember');
+  variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
 }

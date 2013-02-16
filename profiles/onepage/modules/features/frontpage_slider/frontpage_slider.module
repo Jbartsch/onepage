@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Frontpage Slider feature.
+ */
+
+include_once 'frontpage_slider.features.inc';

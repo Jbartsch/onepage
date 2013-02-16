@@ -25,12 +25,11 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-; Distribution specific
+; Distribution specific contrib modules
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = page_manager
 dependencies[] = features
-
 dependencies[] = libraries
 dependencies[] = webform
 dependencies[] = panels
@@ -38,6 +37,20 @@ dependencies[] = flexslider
 dependencies[] = openlayers
 dependencies[] = ctools
 dependencies[] = omega_tools
+dependencies[] = acquia_connector
+dependencies[] = adaptive_image
+dependencies[] = backup_migrate
+dependencies[] = ckeditor
+dependencies[] = ckeditor_link
+dependencies[] = cs_adaptive_image
+dependencies[] = fontyourface
+dependencies[] = geophp
+dependencies[] = videojs
+dependencies[] = views_slideshow
 
+; Distribution specific features
+dependencies[] = front_page_panel
+dependencies[] = frontpage_slider
+dependencies[] = standortsuche
 
 
